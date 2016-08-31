@@ -1,0 +1,61 @@
+*, *:before, *:after { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald';
+}
+
+.logo {
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	border-radius: 20%;
+	overflow: hidden;
+	box-shadow: -1px 20px 50px #ddd;
+	background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%),
+	            -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+
+	.logo_content {
+		width: 372px;
+		height: 375px;
+		border: 34px solid #fff;
+		margin: 65px auto;
+		border-radius: 30%;
+		position: relative;
+
+		&:before,
+		&:after {
+			content: "";
+			display: block;
+			border-radius: 50%;
+			position: absolute;
+		}
+
+		&:before {
+			width: 190px;
+			height: 190px;
+			border: inherit;
+			left: 50%;
+			top: 60px;
+			margin-left: -95px;
+		}
+
+		&:after {
+			width: 45px;
+			height: 45px;
+			right: 28px;
+			top: 30px;
+			background-color: #fff;
+
+		}
+
+	}
+
+}
+
+.copyright {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+}
