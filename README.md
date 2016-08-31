@@ -1,1 +1,1 @@
-# Logo Instagram
+# Logo do Instagram desenvolvido somente com HTML e CSS utilizando o pré-processador SASS
