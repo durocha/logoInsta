@@ -11,7 +11,7 @@
   border-radius: 20%;
   overflow: hidden;
   box-shadow: -1px 20px 50px #ddd;
-  background: -webkit-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -webkit-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%); }
+  background-image: -webkit-radial-gradient(32% 106%, circle cover, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), -webkit-linear-gradient(-45deg, #234bd7 12%, #c33cbe 58%); }
   .logo .logo_content {
     width: 372px;
     height: 375px;
